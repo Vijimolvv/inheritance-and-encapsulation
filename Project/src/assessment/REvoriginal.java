@@ -11,7 +11,7 @@ public class REvoriginal {
 		 int n=s.nextInt();
 		 
 		 int org=n;
-		 int rev=n,digit=0,sum=0;
+		 int rev=n,digit=0,sum=0,sum1=0,digit1=0;
 		 while(org>0)
 		 {
 			 digit=org%10;
@@ -20,6 +20,16 @@ public class REvoriginal {
 			 
 		 }
 System.out.println(sum);
+
+
+while(rev>0)
+{
+	 digit1=rev%10;
+	 sum1=sum1+digit1;
+	org= org/10;
+	 
+}
+
 	}
 
 }
